@@ -1,0 +1,47 @@
+body {
+    background-color: #99b3ff;
+    font-family: "Trirong", serif;
+}
+.name {
+    color:#002080;
+    font-size: 24px;
+}
+.personal > img {
+    width: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 60px;
+    grid-template-columns: 300px 600px;
+    padding: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: white;
+}
+
+.sub-grid-container {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 40px 200px;
+    padding: 10px;
+}
+
+.sub-grid-item {
+    align-self: center;
+}
+
+.personal {
+    margin-left: 20px;
+}
+
+hr {
+    border: 1.5px solid #002080;
+    border-radius: 3px;
+}
+
+.education > h2, .experience > h2, .responsibilities > h2, .others > h2, .reference > h2 {
+    color: #3366ff
+}
+
+
